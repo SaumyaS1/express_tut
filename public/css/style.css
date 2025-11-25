@@ -1,0 +1,22 @@
+/* Heading */
+h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Anchor button */
+a {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #5346c1;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    background-color: #0a72e8;
+    transform: scale(1.05);
+}
