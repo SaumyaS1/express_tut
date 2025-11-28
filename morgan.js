@@ -1,6 +1,8 @@
 //external middleware --> morgan
 import express from 'express'
 import morgan from 'morgan'
+// if we're using morgan we dont need to make our own logger file 
+
 const app=express()
 
 app.use(morgan('dev'))

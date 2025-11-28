@@ -25,6 +25,21 @@ app.use((req,res)=>{
     // const absPath=path.resolve('html/404.html')       //404 page app.use
     res.status(404).sendFile(absPath+'/404.html')
 })
+// app.all('*',(req,res)=>{
+//     res.status(404).send('error')
+// })
 app.listen(4800,()=>{
     console.log('server is running at port 4800')
 })
+
+
+
+
+
+
+// OR
+
+// app.get('/',(req,res)=>{
+//     // const absPath=path.resolve('home/login.html')
+//     res.sendFile(path.resolve(__dirname,'/html/login.html'))
+// })
